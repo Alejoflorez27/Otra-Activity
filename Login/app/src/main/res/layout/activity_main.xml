@@ -5,12 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:circularflow_angles="2"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/fondo_login">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:cardBackgroundColor="#0561EC"
         app:cardCornerRadius="10dp"
         app:cardElevation="40dp"
         app:cardPreventCornerOverlap="true"
@@ -24,9 +24,9 @@
             android:text="Bienvenido"
             android:textAlignment="center"
 
-            android:textColor="#CDDC39"
+            android:textColor="@color/colorPrimaryDark"
             android:textSize="50sp"
-            android:textStyle="Arial" />
+            android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"

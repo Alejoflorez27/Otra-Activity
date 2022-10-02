@@ -15,12 +15,15 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_main);
         Button button=findViewById(R.id.LOGIN);
+
         correo = findViewById(R.id.correo);
         Password = findViewById(R.id.Password);
-        String id = "alejandro@gmail.com";
-        String contrasena = "Guiday627";
+
+        String id = "alejo";
+        String contrasena = "123";
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
